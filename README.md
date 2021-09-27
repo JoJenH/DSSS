@@ -1,13 +1,13 @@
 Damn Small SQLi Scanner [![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-Public_domain-red.svg)](https://wiki.creativecommons.org/wiki/Public_domain)
 =========
 
-**Damn Small SQLi Scanner** (DSSS) is a fully functional [SQL injection](https://en.wikipedia.org/wiki/SQL_injection) vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+**Damn Small SQLi Scanner** (DSSS) 是一个用仅仅不到100行代码编写，却功能完善的 [SQL注入](https://en.wikipedia.org/wiki/SQL_injection) 漏洞扫描工具 (支持GET与POST参数)。
 
 ![Vulnerable](http://i.imgur.com/7mXeXjF.png)
 
-As of optional settings it supports HTTP proxy together with HTTP header values `User-Agent`, `Referer` and `Cookie`.
+支持可选设置：HTTP代理与HTTP头值' User-Agent '， ' Referer '和' Cookie '。
 
-Sample runs
+如何运行
 ----
 
 ```
@@ -41,7 +41,7 @@ estphp.vulnweb.com/artists.php?artist=1%20AND%2061%3E60')
 scan results: possible vulnerabilities found
 ```
 
-Requirements
+依赖
 ----
 
 [Python](http://www.python.org/download/) version **3.x** is required for running this program.
